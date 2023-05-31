@@ -308,17 +308,18 @@ footer{
     width: 0px;
   }
 }
-@media (max-width: 470px) {
-  .list{
-  grid-gap: 5px;
-  grid-template-columns: repeat(4, 0fr);
+@media (max-width: 480px) {
+  
+  .element{
+    font-size: 12px;
+    color: white;
   }
 }
 @media (max-width: 400px) {
   .list{
-    font-size: 14px;
-  right: 15px;
-  grid-gap: 5px;
+  font-size: 10px;
+  right: 0px;
+  grid-gap: 0px;
   grid-template-columns: repeat(4, 0fr);
 }
 .element{
